@@ -1,2 +1,2 @@
-# nayan98.github.io
+# beohardrishti25.github.io
  Portfolio Website
