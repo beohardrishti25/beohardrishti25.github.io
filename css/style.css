@@ -88,7 +88,7 @@ button.site{
     background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 #skills{
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 #contact{
@@ -220,7 +220,7 @@ div.card:hover{
          background-image: url("../images/drish.jpg");
        
          /* Set a specific height */
-         min-height: 150vh; 
+         min-height: 100vh; 
        
          /* Create the parallax scrolling effect */
          background-attachment: fixed;
@@ -240,7 +240,7 @@ div.card:hover{
     
   
     .parallax2{
-        min-height:100vh;
+        min-height:80vh;
     }
      
    }
@@ -250,7 +250,7 @@ div.card:hover{
 /* timeline*/
 
 .timeline{
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     
   }
 
