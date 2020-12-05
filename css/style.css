@@ -172,7 +172,7 @@ div.card:hover{
     background-image: url("../images/drish2.jpg");
   
     /* Set a specific height */
-    min-height: 50vw; 
+    min-height: 150vh; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -220,7 +220,7 @@ div.card:hover{
          background-image: url("../images/drish.jpg");
        
          /* Set a specific height */
-         min-height: 150vw; 
+         min-height: 150vh; 
        
          /* Create the parallax scrolling effect */
          background-attachment: fixed;
@@ -239,6 +239,9 @@ div.card:hover{
     }
     
   
+    .parallax2{
+        min-height:100vh;
+    }
      
    }
 
