@@ -161,23 +161,7 @@ div.card:hover{
     transform: translateY(20px);
 }
 
-@media only screen and (max-width: 415px) {
-  
-   #about{
-    height: 100vh;
-    background-image: url("../images/drish.jpg");
-    background-size: cover;
-   background-position: center;
-    
-    
-    
-    
-    
-    background-repeat: no-repeat;
-    
-    }
-    
-  }
+
   
   
 
@@ -209,6 +193,55 @@ div.card:hover{
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+
+
+
+
+
+  @media only screen and (max-width: 500px) {
+  
+    #about{
+     height: 100vh;
+     background-image: url("../images/drish.jpg");
+     background-size: cover;
+    background-position: center;
+     
+     
+     
+     
+     
+     background-repeat: no-repeat;
+     
+     }
+ 
+     .parallax{
+         /* The image used */
+         background-image: url("../images/drish.jpg");
+       
+         /* Set a specific height */
+         min-height: 150vw; 
+       
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+       }
+
+    }
+    @media only screen and (max-width: 750px) {
+
+       h2{
+        font-size:4vw;
+        font-weight: bold;
+        
+    }
+    
+  
+     
+   }
+
 
 
 /* timeline*/
