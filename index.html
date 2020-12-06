@@ -10,7 +10,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/aaa0c9988b.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/style.css">
-<!--link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">-->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
  
@@ -19,223 +18,354 @@
 <body>
 
 
-
-
-  <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-      <a href="#intro">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a target="_blank" href="resume.pdf">Resume</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-
-  
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light" id ="navbar">
+  <!--navbar section start-->
+    <nav  class="navbar fixed-top navbar-expand-lg navbar-light" 
+          id ="navbar">
         
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+          </span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" id="white" href="#intro">About </a>
+              <a  class="nav-link" 
+                  id="white" 
+                  href="#intro">
+                  About 
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="white" href="#projects">Projects</a>
+              <a  class="nav-link" 
+                  id="white" 
+                  href="#projects">
+                  Projects
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="white" href="#skills">Skills</a>
+              <a  class="nav-link" 
+                  id="white" 
+                  href="#skills">
+                  Skills
+              </a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" id="white" target="_blank" href="resume.pdf">Resume</a>
+              <a  class="nav-link" 
+                  id="white" 
+                  target="_blank" 
+                  href="resume.pdf"
+                  >Resume
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="white" href="#contact">Contact</a>
+              <a  class="nav-link" 
+                  id="white" 
+                  href="#contact">
+                  Contact
+              </a>
             </li>
             
           </ul>
         </div>
       </nav>
       
+<!--navbar section end-->
 
-  <!--   <div id="about" class="container-fluid d-flex flex-column justify-content-center align-items-start text-light text-center">
-        
-           
-         
-     --> 
-     <div id="intro"></div>
+
+<!--intro and parallax section start-->
+     <div id="intro">
+     </div>
      <div class="parallax">
-       <h1 id="desc-intro" class="position"></h1>
-      <p id="desc"></p>
+       <h1  id="desc-intro" 
+            class="position"></h1>
+      <p id="desc">
+      </p>
     </div>
-        
-        </div>
-        <div id="projects" class="p-3">
-            <h1 class="text-center text-light projects-heading">Projects</h1>
-            <div class="container">  
-                <div class="d-flex flex-wrap justify-content-around">
-                <div class="card" >
-                  
-                  <div class="card-body">
-                    <h5 class="card-title">Recruitify</h5>
-                    <p class="card-text">
-                      <ul>
-                        <li>Recruitify is a MERN Stack based web application.</li>
-                          <li>Recruitify provides an optimized Interview Platform for recruitements of new Employees/students.</li>
-                          <li>Features include video calling(using WebRTC) for the interview.</li>
-                          <li >Real-time live notepad(using Socket.io). </li>
-                          <li>View past and pending interviews.</li>
-                        <li>Mass-mailer to send links to the Employees/students for interviews.</li>
-                           <li>Technologies used- NodeJS, ReactJS, MongoDB,WebRTC.</li>
-                      </ul>
-                      
+<!--intro and parallax section end--> 
 
-                    </p>
-                </div>
-                    <div class="card-footer">
-                        
-                        <a href="https://github.com/beohardrishti25" target="_blank"><i class="fab fa-github"></i>Github</a>
-                      
-                  </div>
-                </div>
-
-
-                <div class="card">
-                  
-                  <div class="card-body">
-                    <h5 class="card-title">  Attendance management System</h5>
-                    <p class="card-text">
-                      <ul>
-                      
-<li>Login and sign up page for creating separate accounts for teachers and students.</li> 
-<li>Students are able to check their attendance and use available study materials. Teachers on the other hand are
-authorized to perform CRUD operations on study materials also they can log attendance of Students.
-</li>
-<li>Main Administrator uploads notice regarding the curriculum at the home page of the website.
-  </li>
-<li>Role: Front end and Backend developer.</li>
-                      </ul>
-                    </p>
-                </div>
-                    <div class="card-footer">
-                       
-                        <a href="https://github.com/beohardrishti25" target="_blank"><i class="fab fa-github"></i>Github</a>
-                     
-                  </div>
-                </div>
-               
-                
-                
-              
-
-
-                <div class="card">
-                  
-                  <div class="card-body">
-                    <h5 class="card-title"> Umeed for Women</h5>
-                    <p class="card-text">
-                      <ul>
-                      
-<li>Umeed for women is an Node.js (Express) based web-app for the program ’Karigari’ part of the NGO ’Umeed’.</li> 
-<li>Tracking the progress of production.</li>
-<li>Tracking the session attendance,women's learning and submission of homework.</li>
-<li>Tracking the orders being accepted and distribute the work among women based on ask and availability(using Node-mailer).</li>
-<li>Compensation calculated based on production and quality of work with product efficiency of employees.</li>
-<li>Technologies used- NodeJS,JavaScript, MongoDB.</li>
-
-                      </ul>
-                    </p>
-                </div>
-                    <div class="card-footer">
-                       
-                        <a href="https://github.com/beohardrishti25" target="_blank"><i class="fab fa-github"></i>Github</a>
-                     
-                  </div>
-                </div>
-                
-    
-               
-                </div>
-                </div>
-    
-                </div>
-
-
-                <div class="parallax2"></div>
-
-
-                <div id="skills" class="p-3">
-                  
-                  <div class="timeline">
-                    <h1 class="text-center text-light projects-heading">Skills</h1>
-                    <div class="container1 left">
-                      <div class="content1">
-                        
-                        <h2>Programming Languages</h2>
-                         
-                        <span class="icon"><img src="images/c-language.png" width="30px" height="30px" alt=""> C , </span>
-                        <span class="icon"><img src="images/c++-language.png" width="30px" height="30px" alt=""> C++ , </span>
-                        <span class="icon"><i class="fab web fa-python"></i> Python </span>
-                   
-                        
-                      
-                      </div>
-                    </div>
-                    <div class="container1 right">
-                      <div class="content1">
-  
-                        <h2>Core</h2>                        
-                          <span class="icon">Data Structures , </span>
-                          <span class="icon">Analysis and Design of Algorithms , </span>
-                          <span class="icon">OOPs (Object Oriented Programming) </span>
-                      </div>
-                    </div>
-                    <div class="container1 left">
-                      <div class="content1">
-                       
-                        <h2>Web Development</h2>
-                        
-                         <span class="icon"><i class="fab web fa-html5"></i>HTML , </span>
-                         <span class="icon"><i class="fab web fa-css3-alt"></i>CSS , </span> 
-                         <span class="icon"><i class="fab web fa-js-square"></i>JS, </span>
-                         <span class="icon"><i class="fab web fa-react"></i> React ,</span>
-                         <span class="icon"><i class="fab web fa-node-js"></i>Node js , </span>
-                         <span class="icon"> Express js , </span>
-                         <span class="icon"><i class="fas web fa-database"></i>MongoDB</span> 
-                             
-                        
-                      </div>
-                    </div>
-                    
-                    </div>
-                  
-        
-                </div>
-        
-
-                <div class="parallax"></div>
-        
-        <div id="contact" class="d-flex flex-column justify-content-center align-items-center text-center">
-            <h1 class="mt-5">Let's Work together</h1>
-            
-            <div class="social-media">
-               <a href="https://www.facebook.com/drishti.beohar.37" target="_blank" class="social"><i class="fab fa-facebook-square"></i>Facebook</a>
-                <a href="https://github.com/beohardrishti25" target="_blank" class="social"><i class="fab fa-github"></i>Github</a>
-                <a href="https://www.linkedin.com/in/drishti-beohar-7b5b22169/" target="_blank" class="social"><i class="fab fa-linkedin"></i>Linkedin</a>
-                <a href="https://twitter.com/BeoharDrishti" target="_blank" class="social"><i class="fab fa-twitter"></i>Twitter</a>
-              
+<!--project section start-->
+<div  id="projects" 
+      class="p-3">
+      <h1 class="text-center text-light projects-heading">
+        Projects
+      </h1>
+      <div class="container">  
+        <div class="d-flex flex-wrap justify-content-around">
+          <div class="card" > 
+            <div class="card-body">
+              <h5 class="card-title">
+                Recruitify
+              </h5>
+              <p class="card-text">
+                <ul>
+                  <li>
+                    Recruitify is a MERN Stack based web application.
+                  </li>
+                  <li>
+                    Recruitify provides an optimized Interview Platform 
+                    for recruitements of new Employees/students.
+                  </li>
+                  <li>
+                    Features include video calling(using WebRTC) for 
+                    the interview.
+                  </li>
+                  <li >
+                    Real-time live notepad(using Socket.io). 
+                  </li>
+                  <li>
+                    View past and pending interviews.
+                  </li>
+                  <li>
+                    Mass-mailer to send links to the Employees/students 
+                    for interviews.
+                  </li>
+                  <li>
+                    Technologies used- NodeJS, ReactJS, MongoDB,WebRTC.
+                  </li>
+                </ul>
+              </p>
             </div>
+            <div class="card-footer">
+              <a  href="https://github.com/beohardrishti25" 
+                  target="_blank">
+                <i class="fab fa-github">
+                </i>
+                Github
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"> 
+                Attendance management System
+              </h5>
+              <p class="card-text">
+                <ul>
+                
+                    <li>
+                      Login and sign up page for creating separate 
+                      accounts for teachers and students.
+                    </li> 
+                    <li>
+                      Students are able to check their attendance and 
+                      use available study materials. Teachers on the 
+                      other hand are authorized to perform CRUD operations
+                      on study materials also they can log attendance of Students.
+                    </li>
+                    <li>
+                      Main Administrator uploads notice regarding the 
+                      curriculum at the home page of the website.
+                    </li>
+                    <li>
+                      Role: Front end and Backend developer.
+                    </li>
+                </ul>
+              </p>
+          </div>
+          <div class="card-footer">
+            <a  href="https://github.com/beohardrishti25" 
+                target="_blank">
+                <i class="fab fa-github">
+                </i>
+                  Github
+            </a>
             
-            
+          </div>
         </div>
-        <script src="js/app.js"></script>
+        <div class="card">   
+          <div class="card-body">
+            <h5 class="card-title">
+              Umeed for Women
+            </h5>
+            <p class="card-text">
+              <ul>
+                <li>
+                  Umeed for women is an Node.js (Express) based 
+                  web-app for the program ’Karigari’ part 
+                  of the NGO ’Umeed’.
+                </li> 
+                <li>
+                  Tracking the progress of production.
+                </li>
+                <li>
+                  Tracking the session attendance,women's learning 
+                  and submission of homework.
+                </li>
+                <li>
+                Tracking the orders being accepted and distribute the work
+                among women based on ask and availability(using Node-mailer).
+                </li>
+                <li>
+                  Compensation calculated based on production and 
+                  quality of work with product efficiency of employees.
+                </li>
+                <li>
+                  Technologies used- NodeJS,JavaScript, MongoDB.
+                </li>
+            </ul>
+          </p>
+        </div>
+        <div class="card-footer">
+          <a  href="https://github.com/beohardrishti25" 
+              target="_blank">
+              <i class="fab fa-github">
+              </i>
+              Github
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--project section ends-->
+<div class="parallax2">
+</div>
+
+<!--Skill section start-->
+
+<div id="skills" class="p-3">
+  <div class="timeline">
+    <h1 class="text-center text-light projects-heading">
+      Skills
+    </h1>
+      <div class="skill-container left">
+          <div class="skill">
+              <h2>
+                Programming Languages
+              </h2>
+              <span class="icon">
+                <img  src="images/c-language.png" 
+                      width="30px" 
+                      height="30px" 
+                      alt="">
+                  C , 
+              </span>
+              <span class="icon">
+                <img  src="images/c++-language.png" 
+                      width="30px" 
+                      height="30px" 
+                      alt=""> 
+                  C++ , 
+              </span>
+              <span class="icon">
+                <i class="fab web fa-python">
+                </i>
+                  Python 
+              </span>
+          </div>
+        </div>
+        <div class="skill-container right">
+          <div class="skill">
+            <h2>
+              Core
+            </h2>                        
+            <span class="icon">
+              Data Structures , 
+            </span>
+            <span class="icon">
+              Analysis and Design of Algorithms , 
+            </span>
+            <span class="icon">
+              OOPs (Object Oriented Programming) 
+            </span>
+            </div>
+        </div>
+        <div class="skill-container left">
+          <div class="skill">
+            <h2>
+              Web Development
+            </h2>
+            <span class="icon">
+              <i class="fab web fa-html5">
+              </i>
+              HTML , 
+            </span>
+            <span class="icon">
+              <i class="fab web fa-css3-alt">
+              </i>
+              CSS , 
+            </span>
+            <span class="icon">
+              <i class="fab web fa-js-square">
+              </i>JS, 
+            </span>
+            <span class="icon">
+              <i class="fab web fa-react">
+              </i> React ,
+            </span>
+            <span class="icon">
+              <i class="fab web fa-node-js">
+              </i>Node js , 
+            </span>
+            <span class="icon"> 
+              Express js , 
+            </span>
+            <span class="icon">
+              <i class="fas web fa-database">
+              </i>
+              MongoDB
+            </span>  
+          </div>
+      </div>              
+  </div>     
+</div>
+   
+<!--Skill section end-->
+
+<div class="parallax">
+</div>
+
+<!--contact section start-->
         
-        
-        
-    
+<div  id="contact" 
+      class="d-flex flex-column justify-content-center align-items-center text-center">
+  <h1 class="mt-5">
+    Let's Work together
+  </h1>
+  <div class="social-media">
+    <a  href="https://www.facebook.com/drishti.beohar.37" 
+        target="_blank" 
+        class="social">
+        <i class="fab fa-facebook-square">
+        </i>
+        Facebook
+    </a>
+    <a  href="https://github.com/beohardrishti25" 
+        target="_blank" 
+        class="social">
+        <i class="fab fa-github">
+        </i>
+        Github
+    </a>
+    <a  href="https://www.linkedin.com/in/drishti-beohar-7b5b22169/" 
+        target="_blank" 
+        class="social">
+        <i class="fab fa-linkedin">
+        </i>
+        Linkedin
+    </a>
+    <a  href="https://twitter.com/BeoharDrishti" 
+        target="_blank" 
+        class="social">
+        <i class="fab fa-twitter">
+        </i>
+        Twitter
+    </a>
+              
+    </div>
+  </div>
+<!--contact section ends-->
+<!--app.js included to show the effects at last-->
+  <script src="js/app.js"></script>
+
 
 </body>
 </html>
