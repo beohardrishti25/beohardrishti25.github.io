@@ -45,3 +45,5 @@ function typeWriter1() {
 function call(url){
 window.open(url,"_blank");
 }
+
+
